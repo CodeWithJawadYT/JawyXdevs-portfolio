@@ -1,0 +1,198 @@
+{
+  "project_name": "JAWYX DEVS",
+  "archetype": "THE PERFORMANCE PRO & DARK METALLIC FUTURISTIC",
+  "brand_identity": {
+    "name": "JAWYX DEVS",
+    "meta_title": "jawyXdevs — Elite Web Engineering & Digital Experiences",
+    "logo_url": "https://customer-assets-jai6qajn.emergentagent.net/job_b3443164-49fd-427c-a4a8-f15b84343528/artifacts/rdqdbye8_Jawy.devs.jpg",
+    "logo_style": "Metallic silver JAWYX wordmark with electric-blue X, DEVS subtext on black background",
+    "tagline": "Elite Web Engineering Studio",
+    "hero_headline": "Crafting High-Performance Digital Experiences That Scale Brands Worldwide.",
+    "hero_subline": "We build 3D, responsive, SEO-optimized, ultra-fast web platforms that turn visitors into loyal clients.",
+    "stats": [
+      {
+        "label": "Projects Completed",
+        "value": "0+",
+        "data_testid": "stat-projects-completed"
+      },
+      {
+        "label": "Client Satisfaction",
+        "value": "0%",
+        "data_testid": "stat-client-satisfaction"
+      },
+      {
+        "label": "Technical Support",
+        "value": "24/7",
+        "data_testid": "stat-support"
+      }
+    ],
+    "contact_info": {
+      "whatsapp": "+92 315 1082775",
+      "whatsapp_url": "https://wa.me/923151082775",
+      "email": "jawyxdevs@gmail.com",
+      "instagram": "@jawyxdevs",
+      "instagram_url": "https://instagram.com/jawyxdevs"
+    }
+  },
+  "colors": {
+    "base": {
+      "background_primary": "#070709",
+      "background_secondary": "#0E0F14",
+      "background_card": "#12141C",
+      "background_card_hover": "#171A24",
+      "border_subtle": "rgba(255, 255, 255, 0.08)",
+      "border_highlight": "rgba(0, 102, 255, 0.3)"
+    },
+    "text": {
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8",
+      "muted": "#64748B",
+      "silver_metallic": "#CBD5E1"
+    },
+    "accent": {
+      "electric_blue": "#0066FF",
+      "electric_cyan": "#00F0FF",
+      "electric_glow": "rgba(0, 102, 255, 0.25)",
+      "usage_rule": "CRITICAL: Use electric blue SPARINGLY only for interactive states, key focal points, subtle 3D lights, button borders, active nav state, and primary callouts. Maintain dark graphite overall elegance."
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": "'Outfit', 'Syne', sans-serif",
+      "body": "'Plus Jakarta Sans', -apple-system, sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "scale": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold",
+      "h2_section": "text-3xl sm:text-4xl lg:text-5xl tracking-tight font-bold",
+      "h3_card": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base text-slate-400 leading-relaxed",
+      "small_label": "text-xs uppercase tracking-[0.25em] text-slate-400 font-mono"
+    }
+  },
+  "layout_and_sections": [
+    {
+      "id": "loader",
+      "name": "Preloader Experience",
+      "description": "Minimal cinematic preloader featuring JAWYX DEVS metallic logo reveal with electric-blue sweep animation before curtain exit."
+    },
+    {
+      "id": "nav",
+      "name": "Minimal Floating Navigation",
+      "description": "Floating glassmorphic pill header with logo, links (Home, About, Services, Work, Pricing, Contact), and 'START A PROJECT' CTA button. Compacts seamlessly on scroll."
+    },
+    {
+      "id": "hero",
+      "name": "Kinetic Hero",
+      "description": "Minimalist dark section with JAWYX DEVS logo, tagline badge, bold H1 headline, subline, 2 primary CTAs ('VIEW MY WORK', 'LET'S WORK TOGETHER'), and ONE interactive 3D metallic object."
+    },
+    {
+      "id": "about",
+      "name": "Editorial About Studio",
+      "description": "High-contrast editorial grid showcasing studio ethos, stats (0+ Projects, 0% Satisfaction, 24/7 Support), and clear placeholder story."
+    },
+    {
+      "id": "services",
+      "name": "Interactive Services Matrix",
+      "description": "3-6 dark metallic cards with 3D tilt effect and light-following cursor hover borders. Placeholders for Web Development, 3D Web Apps, UI/UX Architecture, Performance & SEO."
+    },
+    {
+      "id": "work",
+      "name": "Selected Projects Showcase",
+      "description": "Large-format visual cards with subtle image zoom, tag badges, view cursor triggers, and clear placeholder case studies."
+    },
+    {
+      "id": "skills",
+      "name": "Technologies & Craft",
+      "description": "Interactive tech stack badges grouped by category (Frontend, 3D/WebGL, Backend, Design/Tools) centered around a subtle metallic 3D accent."
+    },
+    {
+      "id": "process",
+      "name": "Engineering Process",
+      "description": "Scroll-animated timeline featuring 01 DISCOVER, 02 PLAN, 03 DESIGN, 04 DEVELOP, 05 TEST, 06 LAUNCH connected by an electric-blue progress tracer."
+    },
+    {
+      "id": "pricing",
+      "name": "Transparent Investment Options",
+      "description": "3 metallic cards: Starter ($149), Professional ($299 - RECOMMENDED with electric blue highlight border), and Premium ($499)."
+    },
+    {
+      "id": "final_cta",
+      "name": "Final Action Callout",
+      "description": "Massive kinetic typography banner 'LET'S BUILD SOMETHING EXTRAORDINARY.' with direct project initiation triggers."
+    },
+    {
+      "id": "contact",
+      "name": "Contact Studio",
+      "description": "Direct communication links (WhatsApp +92 315 1082775, Email jawyxdevs@gmail.com, Instagram @jawyxdevs) alongside a working contact form with real-time feedback."
+    },
+    {
+      "id": "footer",
+      "name": "Minimal Footer",
+      "description": "Clean dark footer with copyright © 2026 JAWYX DEVS, status indicator, and legal links."
+    }
+  ],
+  "3d_strategy": {
+    "library": "Three.js with @react-three/fiber and @react-three/drei (or Canvas WebGL fallback)",
+    "hero_object": "Interactive metallic chrome knot / torus knot with metallic mirror material, smooth auto-rotation, mouse-following tilt, and dual lighting (metallic white keylight + electric-blue rim light).",
+    "performance": "DPR capped at 2, lazy suspense wrapper, reduced motion fallback, lightweight geometries."
+  },
+  "motion_and_interactions": {
+    "smooth_scroll": "Lenis smooth scroll + GSAP ScrollTrigger + Framer Motion staggered reveals",
+    "custom_cursor": "Desktop custom magnetic pointer: default small electric dot -> expands over buttons -> displays 'VIEW' text over project items -> disabled on touch devices.",
+    "ambient_background": "Dark graphite canvas with slow-shifting ambient mesh gradient, responding subtly to scroll position."
+  },
+  "image_urls": [
+    {
+      "category": "logo",
+      "url": "https://customer-assets-jai6qajn.emergentagent.net/job_b3443164-49fd-427c-a4a8-f15b84343528/artifacts/rdqdbye8_Jawy.devs.jpg",
+      "alt": "JAWYX DEVS Official Metallic Logo"
+    },
+    {
+      "category": "project_placeholder_1",
+      "url": "https://images.unsplash.com/photo-1707567019592-a05a41cc0b52?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwbWV0YWxsaWMlMjBtb2Rlcm4lMjBhYnN0cmFjdCUyMDNEJTIwYXJjaGl0ZWN0dXJlJTIwZGVzaWdufGVufDB8fHx8MTc4Njc4MjQ3NXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Dark Metallic Architectural 3D Project"
+    },
+    {
+      "category": "project_placeholder_2",
+      "url": "https://images.unsplash.com/photo-1709625862266-014ef072fd93?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHw0fHxkYXJrJTIwbWV0YWxsaWMlMjBtb2Rlcm4lMjBhYnN0cmFjdCUyMDNEJTIwYXJjaGl0ZWN0dXJlJTIwZGVzaWdufGVufDB8fHx8MTc4Njc4MjQ3NXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Curved Metallic Abstract Design"
+    },
+    {
+      "category": "project_placeholder_3",
+      "url": "https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwyfHxkYXJrJTIwbWV0YWxsaWMlMjBtb2Rlcm4lMjBhYnN0cmFjdCUyMDNEJTIwYXJjaGl0ZWN0dXJlJTIwZGVzaWdufGVufDB8fHx8MTc4Njc4MjQ3NXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Futuristic Metallic Engineering Structure"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "Starter",
+      "price": "$149",
+      "recommended": false,
+      "features": ["Single Page Application", "Responsive Mobile-First Design", "SEO Baseline Setup", "Basic Contact Integration", "Fast 3-Day Delivery"],
+      "data_testid": "pricing-starter-card"
+    },
+    {
+      "name": "Professional",
+      "price": "$299",
+      "recommended": true,
+      "features": ["Multi-page or Deep Portfolio", "Interactive 3D / Motion Enhancements", "Advanced Performance Optimization", "Custom Contact Form & Database Integration", "SEO & Speed Audit", "Priority 24/7 Support"],
+      "data_testid": "pricing-professional-card"
+    },
+    {
+      "name": "Premium",
+      "price": "$499",
+      "recommended": false,
+      "features": ["Bespoke Web Platform", "Custom R3F / WebGL 3D Experiences", "Full CMS / Admin Dashboard", "Global CDN & Infrastructure Setup", "Dedicated Studio Partnership", "Lifetime Maintenance"],
+      "data_testid": "pricing-premium-card"
+    }
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Always set data-testid on all interactive buttons, links, cards, inputs, tabs, and form submissions.",
+    "Preserve the metallic silver logo and electric-blue brand guidelines strictly. Do not use blue as background colors; keep it strictly for accent glows, active highlights, and primary CTA touches.",
+    "Use smooth Lenis scroll and Framer Motion staggered entry animations across all sections.",
+    "Avoid generic card grids. Use asymmetrical editorial spacing, 1px subtle dark graphite borders, and dark glassmorphic overlays.",
+    "Ensure custom cursor on desktop handles normal hover, link expansion, and project card 'VIEW' text mode gracefully, while staying completely hidden on touch/mobile devices.",
+    "Form inputs must validate inputs properly and submit to the backend FastAPI endpoint (/api/contact) or react form state with instant feedback toasted via Sonner."
+  ]
+}
