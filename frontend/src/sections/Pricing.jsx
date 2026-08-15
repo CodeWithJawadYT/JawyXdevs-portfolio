@@ -61,7 +61,7 @@ export const Pricing = () => (
         </h2>
         <FadeIn delay={0.2}>
           <p className="max-w-xs text-sm text-[#64748B] leading-relaxed">
-            Feature lists are editable placeholders — prices are exact.
+            Clear scopes, exact prices — pick the level your project needs.
           </p>
         </FadeIn>
       </div>

@@ -149,10 +149,11 @@ export const pricing = [
     recommended: false,
     description: "For simple professional websites and landing pages.",
     features: [
-      "Editable feature point 01",
-      "Editable feature point 02",
-      "Editable feature point 03",
-      "Editable feature point 04",
+      "Single landing page or up to 3 pages",
+      "Clean, responsive mobile-first design",
+      "Basic SEO setup & fast loading",
+      "WhatsApp & email contact integration",
+      "1 round of revisions",
     ],
   },
   {
@@ -163,11 +164,12 @@ export const pricing = [
     description:
       "For businesses that need a polished, responsive and modern website.",
     features: [
-      "Editable feature point 01",
-      "Editable feature point 02",
-      "Editable feature point 03",
-      "Editable feature point 04",
-      "Editable feature point 05",
+      "Up to 6 custom-designed pages",
+      "Smooth animations & modern motion design",
+      "Full SEO optimization & speed tuning",
+      "Working contact form with database storage",
+      "3 rounds of revisions",
+      "2 weeks of post-launch support",
     ],
   },
   {
@@ -178,10 +180,12 @@ export const pricing = [
     description:
       "For clients who want a premium, highly interactive and advanced website experience.",
     features: [
-      "Editable feature point 01",
-      "Editable feature point 02",
-      "Editable feature point 03",
-      "Editable feature point 04",
+      "Fully bespoke design, unlimited sections",
+      "Interactive 3D experiences & cinematic motion",
+      "Advanced performance, SEO & accessibility",
+      "Custom features — dashboards, CMS, integrations",
+      "Priority delivery & direct collaboration",
+      "30 days of post-launch support & maintenance",
     ],
   },
 ];
