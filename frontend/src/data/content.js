@@ -30,8 +30,8 @@ export const HERO = {
 };
 
 export const STATS = [
-  { label: "Projects Completed", value: "0+" },
-  { label: "Client Satisfaction", value: "0%" },
+  { label: "Projects Completed", value: "20+" },
+  { label: "Client Satisfaction", value: "99%" },
   { label: "Support", value: "24/7" },
 ];
 
